@@ -36,11 +36,6 @@ import java.util.regex.Pattern;
 
 import javax.activation.MimetypesFileTypeMap;
 
-/**
- * @author lilinfeng
- * @date 2014年2月14日
- * @version 1.0
- */
 public class HttpDownLoadFileServerHandler extends
 	SimpleChannelInboundHandler<FullHttpRequest> {
     private final String url;
